@@ -5,6 +5,8 @@ from PIL import Image
 import pandas as pd
 import io
 
+login(token=st.secrets["HF_TOKEN"])
+
 # App configuration
 st.set_page_config(
     page_title="MedGemma Dental Analysis",
