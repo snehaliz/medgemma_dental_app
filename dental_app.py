@@ -4,9 +4,9 @@ from transformers import AutoProcessor, AutoModelForImageTextToText
 from PIL import Image
 import pandas as pd
 import io
-from huggingface_hub import login
+import os
 
-login(token=st.secrets["HF_TOKEN"])
+os.environ["HF_TOKEN"] = st.secrets["HF_TOKEN"]
 
 # App configuration
 st.set_page_config(
