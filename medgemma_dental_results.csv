@@ -1,0 +1,68 @@
+filename,original_narrative,total_findings,unique_conditions,locations,model_output
+0001_jpg.rf.30a42966fb9c51553f6949b70234218d.jpg,"Dental radiograph analysis reveals: - 4 fillingss detected Detailed findings: Fillings at coordinates (281, 113); Fillings at coordinates (263, 114); Fillings at coordinates (244, 116); Fillings at coordinates (226, 113) Recommend comprehensive examination and treatment planning.",4,['Fillings'],"[{'class': 'Fillings', 'bbox': [272, 95, 290, 131], 'center': [281, 113]}, {'class': 'Fillings', 'bbox': [254, 97, 272, 131], 'center': [263, 114]}, {'class': 'Fillings', 'bbox': [236, 102, 253, 131], 'center': [244, 116]}, {'class': 'Fillings', 'bbox': [218, 94, 235, 133], 'center': [226, 113]}]","Okay, I've analyzed the dental radiograph. Here's a breakdown of the findings, observations, and recommendations:
+
+**1. Verification of Reported Findings:**
+
+*   **Finding 1:** Fillings detected at coordinates (281, 113)
+*   **Finding 2:** Fillings detected at coordinates (263, 114)
+*   **Finding 3:** Fillings detected at coordinates (244, 116)
+*   **Finding 4:** Fillings detected at coordinates (226, 113)
+
+**2. Description of Observations at Mentioned Locations:**
+
+*   **(281, 113):**  A filling is present on tooth #28 (likely the left upper canine). The filling appears to be in good condition, with no obvious signs of decay or fracture.
+*   **(263, 114):"
+0001_jpg.rf.57229a11e925669019e179341e22c97a.jpg,"Dental radiograph analysis reveals: - 4 fillingss detected Detailed findings: Fillings at coordinates (231, 113); Fillings at coordinates (249, 114); Fillings at coordinates (267, 116); Fillings at coordinates (285, 113) Recommend comprehensive examination and treatment planning.",4,['Fillings'],"[{'class': 'Fillings', 'bbox': [222, 95, 240, 131], 'center': [231, 113]}, {'class': 'Fillings', 'bbox': [240, 97, 258, 131], 'center': [249, 114]}, {'class': 'Fillings', 'bbox': [259, 102, 276, 131], 'center': [267, 116]}, {'class': 'Fillings', 'bbox': [277, 94, 294, 133], 'center': [285, 113]}]","Okay, I've analyzed the dental radiograph. Here's my report:
+
+**1. Verification of Reported Findings:**
+
+*   **Finding 1:** Fillings detected at coordinates (231, 113)
+*   **Finding 2:** Fillings detected at coordinates (249, 114)
+*   **Finding 3:** Fillings detected at coordinates (267, 116)
+*   **Finding 4:** Fillings detected at coordinates (285, 113)
+
+**2. Description of Observations at Mentioned Locations:**
+
+Based on the radiograph, I can confirm the presence of fillings at the following locations:
+
+*   **(231, 113):** A filling is present on the **tooth #23** (likely the left upper canine). The filling appears to be relatively well-defined, with a clear distinction between the filling material"
+0001_jpg.rf.f94abcb7858bb419a7202ef60ef95bd6.jpg,"Dental radiograph analysis reveals: - 4 fillingss detected Detailed findings: Fillings at coordinates (231, 143); Fillings at coordinates (249, 142); Fillings at coordinates (267, 139); Fillings at coordinates (285, 142) Recommend comprehensive examination and treatment planning.",4,['Fillings'],"[{'class': 'Fillings', 'bbox': [222, 125, 240, 161], 'center': [231, 143]}, {'class': 'Fillings', 'bbox': [240, 125, 258, 159], 'center': [249, 142]}, {'class': 'Fillings', 'bbox': [259, 125, 276, 154], 'center': [267, 139]}, {'class': 'Fillings', 'bbox': [277, 123, 294, 162], 'center': [285, 142]}]","Okay, I've analyzed the dental radiograph. Here's my report:
+
+**1. Verification of Reported Findings:**
+
+*   **Finding 1:** Fillings detected at coordinates (231, 143)
+*   **Finding 2:** Fillings detected at coordinates (249, 142)
+*   **Finding 3:** Fillings detected at coordinates (267, 139)
+*   **Finding 4:** Fillings detected at coordinates (285, 142)
+
+**2. Description of Observations at Mentioned Locations:**
+
+Based on the radiograph, I can confirm the presence of fillings at the following locations:
+
+*   **(231, 143):** A filling is present on the **right maxillary first molar**. The filling appears to be relatively well-defined, with a clear radiopaque (white) area indicating the filling material.
+"
+0002_jpg.rf.1a9d8354add8d9f605c343abe1f4989a.jpg,"Dental radiograph analysis reveals: - 3 fillingss detected Detailed findings: Fillings at coordinates (190, 173); Fillings at coordinates (298, 135); Fillings at coordinates (213, 139) Recommend comprehensive examination and treatment planning.",3,['Fillings'],"[{'class': 'Fillings', 'bbox': [171, 151, 210, 195], 'center': [190, 173]}, {'class': 'Fillings', 'bbox': [290, 113, 307, 158], 'center': [298, 135]}, {'class': 'Fillings', 'bbox': [204, 117, 222, 162], 'center': [213, 139]}]","Okay, I've analyzed the dental radiograph. Here's my report:
+
+**1. Verification of Reported Findings:**
+
+*   **Finding 1:** Fillings detected at coordinates (190, 173)
+*   **Finding 2:** Fillings detected at coordinates (298, 135)
+*   **Finding 3:** Fillings detected at coordinates (213, 139)
+
+**2. Description of Observations at Mentioned Locations:**
+
+*   **Location 1: (190, 173)**
+    *   I observe a radiopaque (white) filling material in the region of tooth #19. The filling appears to be covering the occlusal surface of the tooth. The filling material is well-defined and appears to be in good contact with the tooth structure.
+*   **Location 2: (298, 135)**"
+0002_jpg.rf.2e43cdc29b00e6a96296e8e519dc4358.jpg,"Dental radiograph analysis reveals: - 3 fillingss detected Detailed findings: Fillings at coordinates (321, 83); Fillings at coordinates (213, 120); Fillings at coordinates (299, 116) Recommend comprehensive examination and treatment planning.",3,['Fillings'],"[{'class': 'Fillings', 'bbox': [302, 61, 341, 105], 'center': [321, 83]}, {'class': 'Fillings', 'bbox': [205, 98, 222, 143], 'center': [213, 120]}, {'class': 'Fillings', 'bbox': [290, 94, 308, 139], 'center': [299, 116]}]","Okay, I've analyzed the dental radiograph. Here's my report:
+
+**1. Verification of Reported Findings:**
+
+*   **Finding 1:** Fillings detected at coordinates (321, 83)
+*   **Finding 2:** Fillings detected at coordinates (213, 120)
+*   **Finding 3:** Fillings detected at coordinates (299, 116)
+
+**2. Description of Observations at Mentioned Locations:**
+
+*   **(321, 83):**  I observe a radiopaque (white) area within the tooth structure. This is consistent with a filling material. The location is in the mesial (towards the midline) aspect of the tooth.
+*   **(213, 120):** I observe a radiopaque (white) area within the tooth structure. This is consistent with a filling material. The location is in the"
