@@ -3,10 +3,27 @@ import torch
 from transformers import AutoProcessor, AutoModelForImageTextToText
 from PIL import Image
 import pandas as pd
+from huggingface_hub import login
 import io
 import os
 
-os.environ["HF_TOKEN"] = st.secrets["HF_TOKEN"]
+if "HUGGINGFACE_TOKEN" in st.secrets:
+    login(token=st.secrets["HUGGINGFACE_TOKEN"])
+    os.environ["HF_TOKEN"] = st.secrets["HUGGINGFACE_TOKEN"]
+else:
+    st.error("⚠️ Missing Hugging Face token in Streamlit secrets.")
+    st.stop()
+
+# --- Load model & processor ---
+model_id = "google/medgemma-4b-it"
+
+model = AutoModelForImageTextToText.from_pretrained(
+    model_id,
+    torch_dtype=torch.bfloat16,
+    device_map="auto",  # requires accelerate
+)
+
+processor = AutoProcessor.from_pretrained(model_id, use_fast=True)
 
 # App configuration
 st.set_page_config(
