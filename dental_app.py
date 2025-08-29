@@ -4,6 +4,7 @@ from transformers import AutoProcessor, AutoModelForImageTextToText
 from PIL import Image
 import pandas as pd
 import io
+from huggingface_hub import login
 
 login(token=st.secrets["HF_TOKEN"])
 
