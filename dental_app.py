@@ -41,7 +41,7 @@ uploaded_file = st.file_uploader("Upload a dental radiograph", type=["png", "jpg
 
 if uploaded_file:
     image = Image.open(uploaded_file).convert("RGB")
-    st.image(image, caption="Uploaded Dental Radiograph", use_container_width=True)
+    st.image(image, caption="Uploaded Dental Radiograph", width="stretch")
 
     analysis_type = st.selectbox(
         "Analysis Type",
