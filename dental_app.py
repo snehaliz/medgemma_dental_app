@@ -5,31 +5,24 @@ import base64
 import os
 import io
 
-# --- Hugging Face API Setup ---
-API_URL = "https://api-inference.huggingface.co/models/google/medgemma-4b-it"
-HF_TOKEN = st.secrets["HUGGINGFACE_TOKEN"]
-headers = {"Authorization": f"Bearer {HF_TOKEN}"}
+# --- Colab API Setup ---
+COLAB_API_URL = st.secrets["COLAB_API_URL"]
 
-def query_hf_api(image, prompt):
-    """Send request to Hugging Face Inference API"""
+def query_colab_api(image, prompt):
+    """Send request to your Colab API"""
     buffered = io.BytesIO()
     image.save(buffered, format="PNG")
     image_bytes = buffered.getvalue()
 
     payload = {
-        "inputs": {
-            "question": prompt,
-            "image": base64.b64encode(image_bytes).decode("utf-8")
-        }
+        "prompt": prompt,
+        "image": base64.b64encode(image_bytes).decode("utf-8")
     }
 
-    response = requests.post(API_URL, headers=headers, json=payload)
+    response = requests.post(COLAB_API_URL, json=payload)
     if response.status_code != 200:
         return f"Error {response.status_code}: {response.text}"
-    try:
-        return response.json()[0]["generated_text"]
-    except Exception:
-        return str(response.json())
+    return response.json().get("result", str(response.json()))
 
 # --- Streamlit UI ---
 st.set_page_config(page_title="MedGemma Dental Analysis", page_icon="🦷", layout="wide")
